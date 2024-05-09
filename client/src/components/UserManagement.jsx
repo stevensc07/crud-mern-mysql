@@ -39,6 +39,7 @@ const UserManagement = ({ onUserDeleted, onUserAdded }) => {
   const [users, setUsers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [editedUsers, setEditedUsers] = useState({});
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
   useEffect(() => {
     fetchUsers();
