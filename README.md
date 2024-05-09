@@ -1,6 +1,6 @@
 # Proyecto CRUD de React con MERN Stack y MySQL
 
-¡Bienvenido al proyecto CRUD de React con MERN Stack y MySQL! Este proyecto te permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos MySQL utilizando una aplicación construida con el stack MERN (MongoDB, Express.js, React.js, Node.js). A continuación, encontrarás una guía para configurar y ejecutar el proyecto en tu entorno local.
+¡Proyecto CRUD de React con MERN Stack y MySQL! Este proyecto te permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos MySQL utilizando una aplicación construida con el stack MERN (MongoDB, Express.js, React.js, Node.js). A continuación, encontrarás una guía para configurar y ejecutar el proyecto en tu entorno local.
 
 ## Configuración del Entorno
 
@@ -23,6 +23,7 @@ Para la base de datos, utilizamos MySQL con Docker para facilitar la configuraci
 6. Finalmente, ejecuta el script SQL `db.sql` que se encuentra en la carpeta `database` del proyecto.
 
 ### Servidor Node.js
+Entrarr a la carpeta /server en la terminaal y ejecutar npm install para intalar las dependencias
 
 El servidor backend está hecho con Node.js y se ejecuta con el siguiente comando: npm run dev
 
@@ -30,6 +31,7 @@ El servidor backend está hecho con Node.js y se ejecuta con el siguiente comand
 Este comando iniciará el servidor en modo de desarrollo.
 
 ### Cliente React
+Entrarr a la carpeta /client en la terminaal y ejecutar npm install para intalar las dependencias
 
 El cliente frontend está desarrollado en React.js. Para ejecutarlo, utiliza el siguiente comando: npm run dev
 
